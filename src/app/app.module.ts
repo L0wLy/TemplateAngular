@@ -6,12 +6,23 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { NosotrosComponent } from './nosotros/nosotros.component';
+import { InstalacionesComponent } from './instalaciones/instalaciones.component';
+import { EquipoComponent } from './equipo/equipo.component';
+import { ContactoComponent } from './contacto/contacto.component';
+import { CursosComponent } from './cursos/cursos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NosotrosComponent,
+    InstalacionesComponent,
+    EquipoComponent,
+    ContactoComponent,
+    CursosComponent,
+
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,69 @@
+<!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact">
+     <div class="container-fluid">
+
+       <div class="section-header">
+         <h3>Contactanos</h3>
+       </div>
+
+       <div class="row wow fadeInUp">
+
+         <div class="col-lg-6">
+           <div class="map mb-4 mb-lg-0">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.066850016401!2d-58.3815704!3d-34.6037389!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1687212145331!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+         </div>
+
+         <div class="col-lg-6">
+           <div class="row">
+             <div class="col-md-5 info">
+               <i class="ion-ios-location-outline"></i>
+               <p>Av. 9 de Julio s/n, C1043 CABA</p>
+             </div>
+             <div class="col-md-4 info">
+               <i class="ion-ios-email-outline"></i>
+               <p>ArgPrograma@bsas.gob.ar</p>
+             </div>
+             <div class="col-md-3 info">
+               <i class="ion-ios-telephone-outline"></i>
+               <p>4555-8897</p>
+             </div>
+           </div>
+
+           <div class="form">
+             <div id="sendmessage">¡Tu mensaje ah sido enviado, gracias!</div>
+             <div id="errormessage"></div>
+             <form>
+               <div class="form-row">
+                 <div class="form-group col-lg-6">
+                   <input type="text" name="Nobmre" class="form-control" id="Nombre" placeholder="Nombre" pattern="[a-zA-Z]{1,30}" data-msg="Usar por lo menos 4 carácteres" />
+                   <div class="validation"></div>
+                 </div>
+                 <div class="form-group col-lg-6">
+                   <input type="email" class="form-control" name="Email" id="Email" placeholder="Tu Email" data-rule="email" data-msg="Ingresar un Email valido" />
+                   <div class="validation"></div>
+                 </div>
+                 <div class="form-group col-lg-6">
+                   <input type="text" name="Apellido" class="form-control" id="Apellido" placeholder="Apellido" pattern="[a-zA-Z]{1,30}" data-msg="Usar por lo menos 4 carácteres" />
+                   <div class="validation"></div>
+                 </div>
+               </div>
+               <div class="form-group">
+                 <input type="text" class="form-control" name="Asunto" id="Asunto" placeholder="Asunto" data-rule="minlen:4" data-msg="Ingresar por lo menos 8 carácteres" />
+                 <div class="validation"></div>
+               </div>
+               <div class="form-group">
+                 <textarea class="form-control" name="Mensaje" rows="5" data-rule="required" data-msg="Dejanos tu comentario" placeholder="Mensaje"></textarea>
+                 <div class="validation"></div>
+               </div>
+               <div class="text-center"><button type="submit" title="Enviar Mensaje" onclick="alert('Bienvenido');">Enviar Mensaje</button></div>
+             </form>
+           </div>
+         </div>
+
+       </div>
+
+     </div>
+   </section><!-- #contact -->
